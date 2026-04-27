@@ -3,11 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wolf One</title>
-  <meta name="description" content="Wolf One makes original narrative features and documentaries for theatrical and online release.">
+
+  <!-- ── SEO ──────────────────────────────────────────── -->
+  <title>Wolf One | UK Independent Film Production Company</title>
+  <meta name="description" content="Wolf One (Werewolf One Limited) is a UK independent film production company making original narrative features and documentaries. Current production: Gro's Garden.">
+  <meta name="author" content="Werewolf One Limited">
+  <link rel="canonical" href="https://wolfone.studio/">
+
+  <!-- ── OPEN GRAPH ────────────────────────────────────── -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wolfone.studio/">
+  <meta property="og:title" content="Wolf One | UK Independent Film Production Company">
+  <meta property="og:description" content="Wolf One makes original narrative features and documentaries for theatrical and online release — with an emphasis on stories about climate change, energy, security, and our current age of polycrisis.">
+  <meta property="og:image" content="https://wolfone.studio/wolf-one-logo.jpg">
+  <meta property="og:site_name" content="Wolf One">
+
+  <!-- ── FONTS ─────────────────────────────────────────── -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
   <style>
     *, *::before, *::after {
       box-sizing: border-box;
@@ -119,6 +134,17 @@
       margin: 0 auto;
     }
 
+    /* Company name — primary heading, styled as a quiet identifier */
+    .company-heading {
+      font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 0.7rem;
+      font-weight: 300;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(232, 228, 223, 0.45);
+      margin-bottom: 2.5rem;
+    }
+
     .tagline {
       font-family: 'Cormorant Garamond', Georgia, serif;
       font-size: clamp(1.4rem, 2.8vw, 2rem);
@@ -127,6 +153,30 @@
       color: #e8e4df;
       letter-spacing: 0.01em;
       margin-bottom: 5rem;
+    }
+
+    /* ── CURRENT PRODUCTION ───────────────────────────── */
+
+    .productions-section {
+      border-top: 1px solid rgba(232, 228, 223, 0.15);
+      padding-top: 3rem;
+      margin-bottom: 5rem;
+    }
+
+    .production-title {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.35rem;
+      font-weight: 300;
+      color: #e8e4df;
+      letter-spacing: 0.01em;
+      margin-bottom: 0.6rem;
+    }
+
+    .production-meta {
+      font-size: 0.72rem;
+      letter-spacing: 0.07em;
+      color: rgba(232, 228, 223, 0.38);
+      line-height: 1.8;
     }
 
     /* ── CONTACT ──────────────────────────────────────── */
@@ -197,7 +247,7 @@
     <img
       id="logo-fallback"
       src="wolf-one-logo.jpg"
-      alt="Wolf One"
+      alt="Wolf One — UK independent film production company"
     >
     <video
       id="bg-video"
@@ -221,19 +271,31 @@
 
   <!-- CONTENT -->
   <main id="content">
+
+    <h1 class="company-heading">Wolf One</h1>
+
     <p class="tagline">
       Wolf One makes original narrative features and documentaries for theatrical and online release &ndash; with an emphasis on stories about climate change, energy, security and other facets of our current age of polycrisis.
     </p>
+
+    <div class="productions-section">
+      <p class="contact-label">Current Production</p>
+      <p class="production-title">Gro&rsquo;s Garden</p>
+      <p class="production-meta">
+        Feature Film &nbsp;&middot;&nbsp; Folk Horror &nbsp;&middot;&nbsp; Denmark / United Kingdom &nbsp;&middot;&nbsp; In post-production
+      </p>
+    </div>
 
     <div class="contact-section">
       <p class="contact-label">Enquiries</p>
       <a class="contact-link" href="mailto:office@budzinski.work">office@budzinski.work</a>
     </div>
+
   </main>
 
   <footer>
     <p class="company-info">
-      Werewolf One Limited &nbsp;&middot;&nbsp;
+      Werewolf One Limited trading as Wolf One &nbsp;&middot;&nbsp; Company number 16427033<br>
       Correspondence address: Handel House, 95 High Street, Edgware, England, HA8 7DB
     </p>
   </footer>
